@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#myTable{
+    width: 60%;
+    height: 70vh;
+    text-align: center;
+    margin: 40px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+#myTable tr{
+    text-align: center;
+}
+input{
+    margin-left: 13rem;
+    width: 70%;
+    height: 40px;
+}
+th{
+    width: 40%;
+    margin: 40px;
+}
+td {
+    margin: 40px;
+}
+
+#myTable tr.header, #myTable tr:hover{
+    background-color: #f1f1f1;
+}
+
+/************* Responsive *************/
+
+
+@media only screen and (max-width: 768px){
+    input{
+        margin-left: 7rem;
+        width: 70%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    input{
+        margin-left: 7rem;
+        width: 70%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    input{
+        margin-left: 6.5rem;
+        width: 50%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 411px){
+    input{
+        margin-left: 6.5rem;
+        width: 50%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    input{
+        margin-left: 5.5rem;
+        width: 50%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    input{
+        margin-left: 5rem;
+        width: 50%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    input{
+        margin-left: 4rem;
+        width: 50%;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    input{
+        margin-left: 3.5rem;
+        width: 55%;
+        height: 40px;
+    }
+}
